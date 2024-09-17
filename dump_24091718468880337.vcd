@@ -1,0 +1,45 @@
+$date
+	Tue Sep 17 18:46:11 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 2 ! y [1:0] $end
+$var reg 3 " a [2:0] $end
+$scope module tm $end
+$var wire 3 # in [2:0] $end
+$var reg 2 $ out [1:0] $end
+$var integer 32 % count [31:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 &
+b1 %
+b1 $
+b1 #
+b1 "
+b1 !
+$end
+#100
+b10 !
+b10 $
+b11 &
+b10 %
+b11 "
+b11 #
+#200
+b11 &
+b10 %
+b101 "
+b101 #
+#300
