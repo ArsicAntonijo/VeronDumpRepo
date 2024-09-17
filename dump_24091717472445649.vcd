@@ -1,0 +1,51 @@
+$date
+	Tue Sep 17 17:47:13 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! z [3:0] $end
+$var wire 4 " y [3:0] $end
+$var wire 4 # x [3:0] $end
+$var wire 4 $ w [3:0] $end
+$var reg 5 % a [4:0] $end
+$var reg 5 & b [4:0] $end
+$var reg 5 ' c [4:0] $end
+$scope module tm $end
+$var wire 5 ( a [4:0] $end
+$var wire 5 ) b [4:0] $end
+$var wire 5 * c [4:0] $end
+$var wire 4 + z [3:0] $end
+$var wire 4 , y [3:0] $end
+$var wire 4 - x [3:0] $end
+$var wire 4 . w [3:0] $end
+$var wire 16 / concat_reg [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1010101010101011 /
+b1010 .
+b1010 -
+b1010 ,
+b1011 +
+b10101 *
+b1010 )
+b10101 (
+b10101 '
+b1010 &
+b10101 %
+b1010 $
+b1010 #
+b1010 "
+b1011 !
+$end
+#100
