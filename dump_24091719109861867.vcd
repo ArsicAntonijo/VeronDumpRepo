@@ -1,0 +1,53 @@
+$date
+	Tue Sep 17 19:10:50 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! z $end
+$var wire 1 " y $end
+$var wire 1 # x $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$var reg 1 & c $end
+$var reg 1 ' d $end
+$scope module tm $end
+$var wire 1 " aircon $end
+$var wire 1 ! fan $end
+$var wire 1 ' fan_on $end
+$var wire 1 # heater $end
+$var wire 1 & mode $end
+$var wire 1 $ too_cold $end
+$var wire 1 % too_hot $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0'
+0&
+1%
+0$
+0#
+1"
+1!
+$end
+#100
+0"
+1#
+1&
+0%
+1$
+#200
+0#
+1'
+0&
+0$
+#300
