@@ -1,0 +1,21 @@
+$date
+	Fri Nov  7 10:28:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! y $end
+$scope module tm $end
+$var wire 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+z!
+$end
+#100
